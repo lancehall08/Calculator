@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="helloworld.example.com.calculator.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vert_white_24dp"
+        app:useCompatPadding="true"
+        app:backgroundTint="?attr/colorPrimary"
+        app:layout_anchor="@+id/text_input"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_gravity="top"
+        app:fabSize="auto" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_euro_symbol_white_24dp"
+        app:layout_anchor="@+id/fab"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_anchorGravity="top|center"
+        android:layout_gravity="top|center"
+        app:fabSize="auto"
+        android:visibility="invisible"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_replay_white_24dp"
+        app:layout_anchor="@+id/fab2"
+
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="top|center"
+        app:layout_anchorGravity="top|center"
+        app:fabSize="auto"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/buttonTrans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="invisible"
+        android:clickable="false"
+        />
+
+    <include
+        layout="@layout/content_main"
+        android:id="@+id/include" />
+
+
+</android.support.design.widget.CoordinatorLayout>
