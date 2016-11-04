@@ -298,7 +298,6 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText("0");
                     stringBuilder.delete(0, stringBuilder.length());
                 }
-
             }
         });
         buttonEqual.setOnClickListener(new View.OnClickListener() {
@@ -310,7 +309,6 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText(mValue1 + mValue2 + "");
                     stringBuilder.delete(0, stringBuilder.length());
                     mSub=false;
-
                 }
                 if(mSub){
                     textView.setText(mValue1 - mValue2 + "");
