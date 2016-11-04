@@ -77,10 +77,10 @@
                     android:id="@+id/button16"
                     android:layout_weight="1"
                     android:background="@drawable/backgroundwithboarder"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/holo_red_dark"
                     android:textAlignment="center"
                     android:textStyle="normal|italic"
-                    android:textSize="18sp" />
+                    android:textSize="14sp" />
 
                 <Button
                     android:text="@string/_10percent"
@@ -89,10 +89,10 @@
                     android:id="@+id/button15"
                     android:layout_weight="1"
                     android:background="@drawable/backgroundwithboarder"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/holo_orange_dark"
                     android:textAlignment="center"
                     android:textStyle="normal|italic"
-                    android:textSize="18sp" />
+                    android:textSize="14sp" />
 
                 <Button
                     android:text="@string/_15percent"
@@ -101,10 +101,10 @@
                     android:id="@+id/button14"
                     android:layout_weight="1"
                     android:background="@drawable/backgroundwithboarder"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/holo_orange_light"
                     android:textAlignment="center"
                     android:textStyle="normal|italic"
-                    android:textSize="18sp" />
+                    android:textSize="14sp" />
 
                 <Button
                     android:text="@string/_20percent"
@@ -113,10 +113,10 @@
                     android:id="@+id/button13"
                     android:layout_weight="1"
                     android:background="@drawable/backgroundwithboarder"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/holo_green_light"
                     android:textAlignment="center"
                     android:textStyle="normal|italic"
-                    android:textSize="18sp" />
+                    android:textSize="14sp" />
 
                 <Button
                     android:text="@string/_25percent"
@@ -125,10 +125,10 @@
                     android:id="@+id/button12"
                     android:layout_weight="1"
                     android:background="@drawable/backgroundwithboarder"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/holo_green_dark"
                     android:textAlignment="center"
                     android:textStyle="normal|italic"
-                    android:textSize="18sp" />
+                    android:textSize="14sp" />
             </LinearLayout>
 
         </LinearLayout>

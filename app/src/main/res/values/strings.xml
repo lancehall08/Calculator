@@ -30,9 +30,9 @@
     <string name="tip">Tip: </string>
     <string name="total">Total: </string>
     <string name="bill">Bill: </string>
-    <string name="_5percent">5%</string>
-    <string name="_10percent">10%</string>
-    <string name="_15percent">15%</string>
-    <string name="_20percent">20%</string>
-    <string name="_25percent">25%</string>
+    <string name="_5percent">Poor</string>
+    <string name="_10percent">Fair</string>
+    <string name="_15percent">Good</string>
+    <string name="_20percent">Great</string>
+    <string name="_25percent">Excellent</string>
 </resources>
