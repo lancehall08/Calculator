@@ -28,10 +28,9 @@
                 android:textIsSelectable="true"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewEnd"
-                android:textColor="@android:color/black"
                 android:text="@string/_0"
                 android:ems="10"
-                android:textSize="60sp"
+                android:textSize="39sp"
                 android:id="@+id/textView"
                 android:layout_weight="8"/>
     </LinearLayout>
