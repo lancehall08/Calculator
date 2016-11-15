@@ -35,4 +35,8 @@
     <string name="_15percent">Good</string>
     <string name="_20percent">Great</string>
     <string name="_25percent">Excellent</string>
+    <string name="button_9">9</string>
+    <string name="button_6">6</string>
+    <string name="button_3">3</string>
+    <string name="button_equal">=</string>
 </resources>

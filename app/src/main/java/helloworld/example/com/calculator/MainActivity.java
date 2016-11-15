@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    Button button7, button8, button9, buttonClr, button4,
+    Button  button7, button8, button9, buttonClr, button4,
             button5, button6, buttonDiv, button1, button2,
             button3, buttonMultiply, buttonPeriod, button0,
             buttonEqual, buttonSub, buttonAdd;
