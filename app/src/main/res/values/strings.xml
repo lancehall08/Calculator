@@ -27,9 +27,9 @@
     <string name="blank" />
     <string name="title_activity_tip_calculator">TipCalculator</string>
     <string name="textview">TextView</string>
-    <string name="tip">Tip: </string>
-    <string name="total">Total: </string>
-    <string name="bill">Bill: </string>
+    <string name="tip">Tip:\u0020</string>
+    <string name="total">Total:\u0020</string>
+    <string name="bill">Bill:\u0020</string>
     <string name="_5percent">Poor</string>
     <string name="_10percent">Fair</string>
     <string name="_15percent">Good</string>

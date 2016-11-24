@@ -334,6 +334,7 @@ public class MainActivity extends AppCompatActivity {
                     textView.append("");
                 }else{
                     textView.append(buttonPeriod.getText());
+                    stringBuilder.append(buttonPeriod.getText());
                 }
             }
         });
