@@ -30,9 +30,11 @@
                 android:textAlignment="viewEnd"
                 android:text="@string/_0"
                 android:ems="10"
-                android:textSize="39sp"
+                android:textSize="40sp"
                 android:id="@+id/textView"
-                android:layout_weight="8"/>
+                android:layout_weight="8"
+                android:textStyle="normal|bold"
+                android:alpha=".8" />
     </LinearLayout>
 
     </LinearLayout>

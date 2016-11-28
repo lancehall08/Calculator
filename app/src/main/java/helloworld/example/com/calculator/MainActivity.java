@@ -286,7 +286,6 @@ public class MainActivity extends AppCompatActivity {
         buttonClr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //I used try catch exception so app won't crash with Sting out of bounce exception.
                 try{
                     textView.setText(stringBuilder.toString().
                             substring(0, stringBuilder.toString().length()-1));
@@ -304,7 +303,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mValue2 = Float.parseFloat(textView.getText() + "");
-                //TODO Find a better way to concatenate this.
                 if(mAdd){
                     textView.setText(mValue1 + mValue2 + "");
                     stringBuilder.delete(0, stringBuilder.length());
